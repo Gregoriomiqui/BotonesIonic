@@ -7,12 +7,15 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>full</ion-title>
+    <ion-title>Botón Full</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+    <button ion-button color="dark" full> Este es un botón full</button>
+    <hr>
+    <button ion-button navPop  > Atras </button>
+    <button ion-button [navPush]="homePage"  > Inicio </button>
 </ion-content>

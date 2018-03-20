@@ -7,12 +7,16 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>clear</ion-title>
+    <ion-title>Botón Clear</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+    <button ion-button color="secondary" clear> Este es un botón con clear</button>
+    <hr>
+    <button ion-button [navPush]="redondeadoPage" > Siguiente</button>
+    <button ion-button navPop  > Atras </button>
+    <button ion-button [navPush]="homePage"  > Inicio </button>
 </ion-content>

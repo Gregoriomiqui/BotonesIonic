@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { BlockPage } from '../block/block';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the RedondeadoPage page.
@@ -14,6 +16,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'redondeado.html',
 })
 export class RedondeadoPage {
+  blockPage=BlockPage;
+  homePage=HomePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

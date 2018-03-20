@@ -7,12 +7,18 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>tamanos</ion-title>
+    <ion-title>Tipos de Tamaños</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+    <button ion-button small > Este es un botón por small</button>
+    <button ion-button  medium > Este es un botón por medium</button>
+    <button ion-button large > Este es un botón por large</button>
+    <hr>
+    <button ion-button [navPush]="outlinePage" > Siguiente</button>
+    <button ion-button navPop  > Atras </button>
+    <button ion-button [navPush]="homePage"  > Inicio </button>
 </ion-content>

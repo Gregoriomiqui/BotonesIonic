@@ -7,12 +7,16 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>redondeado</ion-title>
+    <ion-title>Botón Redondeado</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+    <button ion-button color="danger" round> Este es un botón redondeado</button>
+    <hr>
+    <button ion-button [navPush]="blockPage" > Siguiente</button>
+    <button ion-button navPop  > Atras </button>
+    <button ion-button [navPush]="homePage"  > Inicio </button>
 </ion-content>

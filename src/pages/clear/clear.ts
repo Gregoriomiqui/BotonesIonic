@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { HomePage } from '../home/home';
+import { RedondeadoPage } from '../redondeado/redondeado';
 /**
  * Generated class for the ClearPage page.
  *
@@ -14,7 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'clear.html',
 })
 export class ClearPage {
-
+  homePage=HomePage;
+  redondeadoPage=RedondeadoPage;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

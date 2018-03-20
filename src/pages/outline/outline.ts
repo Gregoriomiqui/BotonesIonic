@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+import { ClearPage } from '../clear/clear';
 
 /**
  * Generated class for the OutlinePage page.
@@ -15,6 +17,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class OutlinePage {
 
+  homePage=HomePage;
+  clearPage=ClearPage;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
